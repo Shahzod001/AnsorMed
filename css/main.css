@@ -23,8 +23,8 @@ header{
     justify-content: space-between;
     align-items: center;
 }
-.header-left{
-}
+/* .header-left{
+} */
 .header-logo{
     margin-right: 10px;
 } 
@@ -179,28 +179,54 @@ header{
     list-style: none;
 }
 .middle-list-item {
+    width: 864px;
     margin-bottom: 80px;
     display: flex;
 }
+.middle-list-item::before{
+    content: "";
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-size: 200px 200px;
+    background-position-x: calc(50% + 6px);
+}
+.middle-list-item:nth-child(1)::before{
+    background-image: url('/photos/hijama.jpg');
+}
+
+.middle-list-item:nth-child(2)::before{
+    background-image: url('/photos/relax.jpg');
+}
+.middle-list-item:nth-child(3)::before{
+    background-image: url('/photos/photo.jpg');
+}
+.middle-list-item:nth-child(4)::before{
+    background-image: url('/photos/Honey.jpg');
+}
+
 .middle-img {
     margin-right: 64px;
 }
 .middle-box {
-    width: 600px;
+    padding-right: 60px;
 }
 .middle-text {
-    margin-bottom: 24px;
-    margin-top: 10px;
+    margin: 0;
+    margin-left: 230px;
     font-weight: 700;
     font-size: 24px;
     line-height: 120%;
     color: #222222;
+    margin-bottom: 24px;
 }
 .middle-box-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
+    margin: 0;
     color: #444444;
+    margin-left: 230px;
 }
 .mini-box{
     display: flex;
