@@ -1,6 +1,8 @@
 body{
     margin: 0;
     font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans Condensed';
+    font-style: normal;
 }
 * {
     box-sizing: border-box;
@@ -22,15 +24,16 @@ header{
     align-items: center;
 }
 .header-left{
-    display: flex;
-    align-items: center;
 }
 .header-logo{
-}
+    margin-right: 10px;
+} 
 .header-logo:active{
     opacity: 0.6;
 }
 .header-logo-link{
+    display: flex;
+    align-items: center;
     padding: 16px;
     text-decoration: none;
     font-weight: 600;
@@ -45,18 +48,18 @@ header{
 .header-logo-link:active{
     opacity: 0.6;
 }
-.header-nav {
-}
+/* .header-nav {
+} */
 .header-list {
     display: flex;
     align-items: center;
     list-style: none;
 }
 .header-list-item {
-    padding-right: 32px;
+    margin-right: 32px;
 }
 .header-roster-item{
-    padding right: 0px;
+    padding-right: 0px;
 }
 .header-link {
     text-decoration: none;
@@ -79,8 +82,6 @@ header{
     background: #DE2E54;
     border: 2px solid #DE2E54;
     border-radius: 8px;
-    font-family: 'Open Sans Condensed';
-    font-style: normal;
     font-weight: 700;
     font-size: 15px;
     line-height: 150%;
@@ -109,8 +110,8 @@ header{
     align-items: center;
     justify-content: space-around;
 }
-.child-box {
-}
+/* .child-box {
+} */
 .section-top-heading {
     margin-bottom: 8px;
     font-weight: 700;
@@ -127,6 +128,7 @@ header{
     color: #FFFFFF;
 }
 .section-top-link {
+    display: inline-block;
     background-color: #DE2E54;
     border: 2px solid #DE2E54;
     border-radius: 8px;
@@ -155,8 +157,8 @@ header{
     width: 423px;
     height: 504px;
 }
-.middle {
-}
+/* .middle {
+} */
 .middle-parent {
     margin-top: 120px;
 
@@ -201,7 +203,6 @@ header{
     color: #444444;
 }
 .mini-box{
-    margin-top: 60px;
     display: flex;
     justify-content: center;
 }
@@ -232,14 +233,11 @@ header{
 .section-bottom {
     background: #0EB4C1;
 }
-.container {
-}
 .bottom-parent {
     margin-top: 120px;
 
 }
 .bottom-heading {
-    padding-top: 64px;
     font-weight: 700;
     font-size: 36px;
     line-height: 120%;
@@ -299,8 +297,8 @@ footer{
     align-items: center;
     justify-content: start;
 }
-.header-logo {
-}
+/* .header-logo {
+} */
 .footer-child-link {
     padding: 16px;
     text-decoration: none;
@@ -313,10 +311,10 @@ footer{
     opacity: 0.6;
     color: #FFFFFF;
 }
-.footer-child-second {
+/* .footer-child-second {
 }
 .footer-nav {
-}
+} */
 .footer-list {
     display: flex;
     list-style: none;
